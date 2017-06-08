@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide </title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <h1>Style Guide</h1>
+
+    <nav>
+      
+      <p>
+        Go to:
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <a href="#combined_elements">Combined Elements</a>,
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+      <!-- In-text link styling section -->
+      <section>
+
+        <h2>In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.intextlink</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="intextlink"&gt;An In-Text Link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="#" class="intextlink">An In-Text Link</a>
+
+      </section>
+
+      <!-- Submit/Reset Buttons styling section -->
+      <section>
+
+        <h2>Submit/Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.submit, .reset</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;button class="button"&gt;Submit&lt;/button&gt;</code>
+        <code>&lt;button class="button"&gt;Reset&lt;/button&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <button class="submit">Submit</button>
+        <button class="reset">Reset</button>
+
+      </section>
+
+      <!-- Text Input Field styling section -->
+      <section>
+
+        <h2>Text Input Field</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.textinput</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;input type="text" name="textinput" class="textinput"&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <input type="text" name="textinput" class="textinput">
+
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <!-- Heading styling section -->
+      <section>
+
+        <h2>Headings</h2>
+
+        <h3>CSS selector:</h3>
+        <p>h5</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;h5&gt;STUDIO CREATE&lt;/h5&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h5>STUDIO CREATE</h5>
+
+      </section>
+
+      <!-- Paragraphs styling section -->
+      <section>
+
+        <h2>Paragraphs</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.paragraph</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p1&gt;The creative collective studio ’Studio Create’ is a new art lab launched by the artist group that formed with celebrities, creative art director, photographer, videographer, screenwriter, music producer, performer, fashion and graphic designer. We focuses on imaginative stories with SPACE as its main concept, and all the artworks and fashion collections will be presented concurrently as various episodes.&lt;/p1&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <p class="context">The creative collective studio ’Studio Create' is a new art lab launched by the artist group that formed with celebrities, creative art director, photographer, videographer, screenwriter, music producer, performer, fashion and graphic designer. We focuses on imaginative stories with SPACE as its main concept, and all the artworks and fashion collections will be presented concurrently as various episodes.</p>
+
+      </section>
+
+      <!-- Bulleted Lists styling section -->
+      <section>
+
+        <h2>Bulleted Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.li_bul</p>
+  
+        <h3>Sample code:</h3>
+        <code>&lt;ul&gt;&lt;li&gt;About&lt;/li&gt;&lt;/ul&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ul>
+          <li>About</li>
+          <li>Events</li>
+          <li>Shop</li>
+          <li>Contact</li>
+        </ul> 
+
+      </section>
+
+      <!-- Numbered styling section -->
+      <section>
+
+        <h2>Numbered Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.li_num</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ol&gt;&lt;li&gt;About&lt;/li&gt;&lt;/ol&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ol>
+          <li>About</li>
+          <li>Events</li>
+          <li>Shop</li>
+          <li>Contact</li>
+        </ol> 
+
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <!-- Main Navigation styling section -->
+      <section>
+
+        <h2>Main Navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.main_nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ol&gt;&lt;li&gt;About&lt;/li&gt;&lt;/ol&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <div class="topnav" id="myTopnav">
+          <a href="#about">About</a>
+          <a href="#events">Events</a>
+          <a href="#shop">Shop</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+      </section>
+
+      <!-- Product Listing styling section -->
+      <section>
+
+        <h2>Product Listing</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.products</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ol&gt;&lt;li&gt;About&lt;/li&gt;&lt;/ol&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ul class="products">
+          <li>
+            <a href="#">
+              <img src="img/item1.png" alt="item1" style="width:300px;height:300px;"></a>
+              <h4>Item Title</h4>
+              <h4>$135</h4>
+          </li><li>
+            <a href="#">
+              <img src="img/item2.png" alt="item2" style="width:300px;height:300px;"></a>
+              <h4>Item Title</h4>
+              <h4>$85</h4>
+          </li><li>
+            <a href="#">
+              <img src="img/item3.png" alt="item3" style="width:300px;height:300px;"></a>
+              <h4>Item Title</h4>
+              <h4>$80</h4>
+          </li><li>
+            <a href="#">
+              <img src="img/item4.png" alt="item4" style="width:300px;height:300px;"></a>
+              <h4>Item Title</h4>
+              <h4>$98</h4>
+          </li><li>
+            <a href="#">
+              <img src="img/item5.png" alt="item5" style="width:300px;height:300px;"></a>
+              <h4>Item Title</h4>
+              <h4>$85</h4>
+          </li><li>
+            <a href="#">
+              <img src="img/item6.png" alt="item6" style="width:300px;height:300px;"></a>
+              <h4>Item Title</h4>
+              <h4>$80</h4>
+          </li>
+        </ul>
+
+      </section>
+
+      <!-- Grid Structure styling section -->
+      <section>
+
+        <h2>Grid Structure</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.grid-col-1of5 block</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="grid-col-1of5-block"&gt;&lt;div&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <div class="container">
+           <div class="grid-col-1of5 block"></div>
+           <div class="grid-col-1of5 block"></div>
+           <div class="grid-col-1of5 block"></div>
+           <div class="grid-col-1of5 block"></div>
+           <div class="grid-col-1of5 block"></div>
+        </div>
+
+      </section>
+
+      <!-- Colour Swatches styling section -->
+      <section>
+
+        <h2>Colour Swatches</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.colour</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ol&gt;&lt;li&gt;About&lt;/li&gt;&lt;/ol&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <img src="img/colour.png" alt="colour" style="width:769px;height:195px;">
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>
